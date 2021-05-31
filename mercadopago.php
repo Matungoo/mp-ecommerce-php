@@ -9,6 +9,8 @@ $dominio = "http://".$dominio;
 // Public Key: TEST-667354d7-fc8d-47c6-82b0-b315e448b6d6
 // Access Token: TEST-1206668190429489-112115-bcb9f9fcb87c419c6fbe5a6e0144bcc4__LD_LB__-53342228
 MercadoPago\SDK::setAccessToken("APP_USR-8208253118659647-112521-dd670f3fd6aa9147df51117701a2082e-677408439"); // Either Production or SandBox AccessToken
+MercadoPago\SDK::setIntegratorId("dev_2e4ad5dd362f11eb809d0242ac130004"); // IntegratorId
+
 
 // Crea un objeto de pago
 $payment = new MercadoPago\Payment();
@@ -44,7 +46,7 @@ $preference->save();
 // b) Número de la casa: 1602
 // c) Código postal: 03940
 $payer = new MercadoPago\Payer();
-$payer->id = "681051270";
+//$payer->id = "681051270";
 $payer->name = "Lalo";
 $payer->surname = "Landa";
 $payer->email = "test_user_46542185@testuser.com";
@@ -63,6 +65,8 @@ $payer->address = array(
     "street_number" => 1602,
     "zip_code" => "03940"
 );
+
+
 
 
 // Excluir metodos de pago

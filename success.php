@@ -7,17 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="format-detection" content="telephone=no">
 
-    <script
-    src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://www.mercadopago.com/v2/security.js" view=""></script>
     <link rel="stylesheet" href="./assets/category-landing.css" media="screen, print">
-
     <link rel="stylesheet" href="./assets/category.css" media="screen, print">
-
     <link rel="stylesheet" href="./assets/merch-tools.css" media="screen, print">
-
     <link rel="stylesheet" href="./assets/fonts" media="">
     <style>
         .as-filter-button-text {
