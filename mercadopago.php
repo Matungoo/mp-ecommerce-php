@@ -3,7 +3,7 @@ require_once 'vendor/autoload.php';
 
 // Dominio Base
 $dominio = isset($_SERVER['SERVER_NAME']) ? $_SERVER['SERVER_NAME'] : null ;
-$dominio = "http://".$dominio;
+$dominio = "https://".$dominio;
 
 // Credenciales
 // Public Key: TEST-667354d7-fc8d-47c6-82b0-b315e448b6d6
@@ -65,7 +65,6 @@ $payer->address = array(
     "street_number" => 1602,
     "zip_code" => "03940"
 );
-
 
 
 
