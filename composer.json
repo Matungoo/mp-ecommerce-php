@@ -1,5 +1,7 @@
 {
-    "name": "mp-ecommerce-php",
-    "type": "project",
-    "require": {}
+    "name": "matungoo/mp-ecommerce-php",
+    "description": "Prueba de certificación de mercado pago",
+    "require": {
+        "mercadopago/dx-php": "2.3.0"
+    }
 }
