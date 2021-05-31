@@ -69,9 +69,9 @@ $preference->notification_url = $dominio."/notification.php";
 
 // Páginas de retorno (back_url)
 $preference->back_urls = array(
-    "success" => $dominio . "/success",
-    "failure" => $dominio . "/failure",
-    "pending" => $dominio . "/pending"
+    "success" => $dominio . "/success.php",
+    "failure" => $dominio . "/failure.php",
+    "pending" => $dominio . "/pending.php"
 );
 $preference->auto_return = "approved";
 
