@@ -46,11 +46,16 @@ $preference->save();
 // b) Número de la casa: 1602
 // c) Código postal: 03940
 $payer = new MercadoPago\Payer();
-//$payer->id = "681051270";
+$payer->id = "768254603"; // "681051270";
+$payer->nickname = "TETE1479417";
+// "nickname": "TETE1479417",
+//     "password": "qatest5780",
+//     "site_status": "active",
+//     "email": "test_user_46159804@testuser.com"
 $payer->name = "Lalo";
 $payer->surname = "Landa";
-$payer->email = "test_user_46542185@testuser.com";
-// $payer->password = "qatest9922";
+$payer->email = "test_user_46159804@testuser.com"; // "test_user_46542185@testuser.com";
+$payer->password = "qatest5780"; //"qatest9922";
 $payer->date_created = "2018-06-02T12:58:41.425-04:00";
 $payer->phone = array(
     "area_code" => "",
