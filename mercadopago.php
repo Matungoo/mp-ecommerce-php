@@ -8,7 +8,7 @@ $dominio = "https://".$dominio;
 // Credenciales
 // Public Key: TEST-667354d7-fc8d-47c6-82b0-b315e448b6d6
 // Access Token: TEST-1206668190429489-112115-bcb9f9fcb87c419c6fbe5a6e0144bcc4__LD_LB__-53342228 / APP_USR-8208253118659647-112521-dd670f3fd6aa9147df51117701a2082e-677408439
-MercadoPago\SDK::setAccessToken("TEST-1206668190429489-112115-bcb9f9fcb87c419c6fbe5a6e0144bcc4__LD_LB__-53342228"); // Either Production or SandBox AccessToken
+MercadoPago\SDK::setAccessToken("TEST-1206668190429489-112115-bcb9f9fcb87c419c6fbe5a6e0144bcc4__LD_LB"); // Either Production or SandBox AccessToken
 MercadoPago\SDK::setIntegratorId("dev_2e4ad5dd362f11eb809d0242ac130004"); // IntegratorId
 
 
